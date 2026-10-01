@@ -13,12 +13,13 @@ Source : #
 - [ ] 
 - [ ] 
 
-## Hors scope
+## Hors scope (optionnel)
 -
 
 ## Questions ouvertes
 Une issue ne passe en « Ready » que lorsque cette section est vide : une fois tranchée, intégrer la réponse dans les critères et supprimer la question.
-- 
+
+-
 
 ## Infos utiles (optionnel)
 Liens, captures, maquettes, notes techniques. Si le travail est gros : sous-issues à créer (- [ ] #).
