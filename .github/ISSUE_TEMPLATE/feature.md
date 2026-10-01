@@ -1,42 +1,24 @@
 ---
-name: "✨ Feature / User story"
-about: Proposer une nouvelle fonctionnalité ou évolution
-title: ''
-labels: ''
-assignees: ''
-
+name: "✨ Feature"
+about: Nouvelle fonctionnalité ou amélioration
+type: 'feature'
 ---
 
-## ✅ Definition of Ready
-
-Avant de démarrer le développement, vérifier que :
-- [ ] Le besoin et les critères d'acceptation sont clairs
-- [ ] Le scope (inclus / exclus) est délimité
-- [ ] Il n'y a pas de question bloquante en suspens
-- [ ] Le **Type** de l'issue est renseigné dans la barre latérale (Feature)
-
-## Contexte
-Décrire rapidement le problème ou le besoin.
-
-## Objectif
-Décrire le résultat attendu.
-
-## Scope
-Ce qui est inclus :
-- 
-
-Ce qui n'est pas inclus :
-- 
+## Besoin
+2-3 lignes : quoi et pourquoi. Le contexte détaillé reste dans la source.
+Source : #
 
 ## Critères d'acceptation
 - [ ] 
 - [ ] 
 - [ ] 
 
-## Découpage (optionnel)
-Si le travail est conséquent, lister les sous-issues à créer pour permettre des PR plus petites :
-- [ ] #
-- [ ] #
+## Hors scope
+-
 
-## Infos utiles
-Liens, captures, logs, notes techniques, contraintes éventuelles.
+## Questions ouvertes
+Une issue ne passe en « Ready » que lorsque cette section est vide : une fois tranchée, intégrer la réponse dans les critères et supprimer la question.
+- 
+
+## Infos utiles (optionnel)
+Liens, captures, maquettes, notes techniques. Si le travail est gros : sous-issues à créer (- [ ] #).
