@@ -1,0 +1,20 @@
+title: "[Besoin] "
+body:
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Contexte
+      description: Une phrase — qui est concerné, dans quelle situation.
+    validations:
+      required: true
+  - type: textarea
+    id: demande
+    attributes:
+      label: Ce qui est demandé
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source de la demande
+      description: Copie du mail, feedback utilisateur Toki, message...
