@@ -24,7 +24,7 @@ Les commits individuels n'ont pas besoin d'être parfaits — l'historique est n
 
 ## 3. Note de conception (optionnelle)
 
-Pour la majorité des features, l'issue (Objectif / Scope / Critères d'acceptation) suffit. Pour les changements plus conséquents, rédiger une courte note de conception **avant** de démarrer le développement, à partager avec l'équipe pour valider l'approche — utile à tout le monde, pas seulement pour caler un dev qui découvre le sujet. Ce réflexe existe déjà de façon informelle dans certains repos (dossier `docs/specs/`) ; il est ici généralisé.
+Pour la majorité des features, l'issue (Objectif / Scope / Critères d'acceptation) suffit. Pour les changements plus conséquents, rédiger une courte note de conception **avant** de démarrer le développement, à partager avec l'équipe pour valider l'approche — utile à tout le monde, pas seulement pour caler un dev qui découvre le sujet. Ce réflexe existait déjà de façon informelle dans certains repos (dossier `docs/specs/`) ; il est ici généralisé, avec un emplacement unique.
 
 **Quand la rédiger** (au moins un des critères suivants) :
 - Le changement touche plusieurs composants (plusieurs modules, front + back + DB…)
@@ -39,7 +39,7 @@ Pour la majorité des features, l'issue (Objectif / Scope / Critères d'acceptat
 - Points ouverts / risques
 
 **Où et comment** :
-- Fichier markdown dans `docs/specs/AAAA-MM-JJ-slug.md` (dans le repo concerné)
+- Fichier markdown dans `docs/conception/<projet>.md` (dans le repo concerné), proposé par Pull Request ; modèle : [`docs/templates/conception.md`](templates/conception.md)
 - Lien vers la note ajouté dans l'issue correspondante
 - Relecture rapide par l'équipe avant de démarrer le développement (pas un processus d'approbation formel)
 
